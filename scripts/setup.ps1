@@ -108,9 +108,9 @@ Get-VerifiedFile `
 $llamaPath = Join-Path $projectRoot 'libs/llama.cpp'
 $llamaRevision = '3b4d6ab3f79651935fba1dd93732f29022a7f5f5'
 if (-not (Test-Path -LiteralPath (Join-Path $llamaPath '.git'))) {
-    & git clone --no-checkout --filter=blob:none https://github.com/ggml-org/llama.cpp.git $llamaPath
+    & git -c core.longpaths=true clone --no-checkout --filter=blob:none https://github.com/ggml-org/llama.cpp.git $llamaPath
     if ($LASTEXITCODE -ne 0) { throw 'Could not download llama.cpp.' }
-    & git -C $llamaPath checkout --detach $llamaRevision
+    & git -c core.longpaths=true -C $llamaPath checkout --detach $llamaRevision
     if ($LASTEXITCODE -ne 0) { throw 'Could not check out pinned llama.cpp.' }
 }
 $actualRevision = & git -C $llamaPath rev-parse HEAD
