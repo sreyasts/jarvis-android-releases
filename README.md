@@ -20,18 +20,19 @@ Already using Jarvis? Install over your existing copy to keep your settings, sav
 
 | Feature | How it works |
 | --- | --- |
-| **Talk or type** | Speak English or Malayalam, or type when you want a silent reply. Choose Auto, English or Malayalam in Help. Spoken English uses the bundled voice. Malayalam audio requires a Malayalam voice in your Android text-to-speech engine. The reactor responds to microphone and playback levels. |
+| **Talk or type** | Speak English or Malayalam, or type when you want a silent reply. In Help, choose both languages or select one, preview the voice, and control whether spoken replies are read aloud. Malayalam audio requires a Malayalam voice in your Android text-to-speech engine. The reactor responds to microphone and playback levels. |
 | **Control your phone** | Check the time and battery, set a timer, toggle the flashlight, adjust media volume, or open an installed app, Camera or Settings. An alarm request opens Clock with the time filled in for you to review and save. Phone actions require an unlocked device. |
 | **Ask AI offline** | In **AI settings**, choose Qwen3 1.7B (1.28 GB) or 4B (2.50 GB) and tap **Download offline AI**. Keep Jarvis open during the download. You can pause and resume. Jarvis verifies the model before using it. |
 | **Connect Gemini** | In **AI settings**, enter your own Google AI Studio key, save it and test the connection. Enable **Search & read web pages** for Google Search, public page answers and source links when available. Model access, quota and charges depend on your Google account. Jarvis can fall back to an installed offline model when Gemini is unavailable. |
 | **Launch from a shortcut** | In **Assistant & shortcuts → Choose Jarvis**, select it as Android’s digital assistant. On Nothing OS, map the power-button hold gesture to **Digital assistant**. The optional **Floating button** also opens the compact assistant overlay and needs display-over-apps permission. |
 | **Control listening** | Tap the reactor or launch the assistant shortcut, then speak when **Listening** appears. You can say “Hey Jarvis” at the start of the request. The microphone is off while idle. **Stop** cancels the current request or speech. The main switch turns Jarvis off. |
+| **Personalize replies** | In **Help → Personalize Jarvis**, save your preferred name and reply preferences. Jarvis can use the last two exchanges for follow-up questions during the current app session. |
 
 Built-in phone commands and speech recognition work with no AI account. For general questions, install a Qwen model or connect Gemini. Jarvis uses a limited set of Android actions. Handle calls, messages, payments and deletions directly in their apps.
 
 ## Privacy
 
-Jarvis processes speech on the device by default. With a saved Gemini key and an internet connection, Jarvis can send speech after activation and request text to Google. Remove the saved key in **AI settings** to return to local processing. The key is encrypted with Android Keystore and excluded from backup. Android handles permission prompts and approves each APK installation.
+Jarvis processes speech on the device by default. With a saved Gemini key and an internet connection, Jarvis can send speech after activation to Google. Gemini answers can include the current request, saved profile preferences and up to two recent exchanges. Remove the saved key in **AI settings** to return to local processing. The key is encrypted with Android Keystore and excluded from backup. Android handles permission prompts and approves each APK installation.
 
 ## Project links
 
