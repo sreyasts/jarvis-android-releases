@@ -1,0 +1,7 @@
+Recordings from the Google FLEURS test split, distributed under CC BY 4.0.
+https://huggingface.co/datasets/google/fleurs
+https://creativecommons.org/licenses/by/4.0/
+Converted from float WAV to 16 kHz mono PCM16 for Android instrumentation.
+ml_in: 10101537866226983572.wav
+hi_in: 10027305580492162464.wav
+ta_in: 10015420708072669120.wav

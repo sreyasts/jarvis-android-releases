@@ -1,0 +1,4 @@
+AI4Bharat IndicConformer Malayalam INT8. Conversion by akm9191.
+https://huggingface.co/akm9191/sherpa-onnx-indicconformer-ml-int8/tree/0ea74b1557da742520c68f0c9777bb4d0147c766
+Upstream: https://huggingface.co/ai4bharat/indicconformer_stt_ml_hybrid_ctc_rnnt_large
+The conversion's MIT license is included in this directory.

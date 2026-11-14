@@ -1,0 +1,9 @@
+Piper northern_english_male (medium), INT8 ONNX conversion by sherpa-onnx.
+Dataset: Google UK and Ireland English Dialect Speech Dataset (OpenSLR 83).
+Attribution and source: https://www.openslr.org/83/
+Model card: https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_GB/northern_english_male/medium/MODEL_CARD
+License: Creative Commons Attribution-ShareAlike 4.0 International.
+Terms: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Converted model: https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-en_GB-northern_english_male-medium-int8.tar.bz2
+No local weight modifications. Playback speed 0.98, reduced stochastic noise.
+This license applies to this voice asset, not independently written application code.
